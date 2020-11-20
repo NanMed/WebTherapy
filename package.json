@@ -1,0 +1,50 @@
+{
+  "name": "proyecto",
+  "version": "0.0.1",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js",
+    "server": "node app.js",
+    "client": "npm start --prefix client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^8.2.0",
+    "mongoose": "^5.10.5",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "@angular/animations": "^10.1.6",
+    "@angular/cdk": "^10.2.1",
+    "@angular/common": "~10.1.1",
+    "@angular/compiler": "~10.1.1",
+    "@angular/core": "~10.1.1",
+    "@angular/forms": "~10.1.1",
+    "@angular/material": "^10.2.1",
+    "@angular/platform-browser": "~10.1.1",
+    "@angular/platform-browser-dynamic": "~10.1.1",
+    "@angular/router": "~10.1.1",
+    "@auth0/angular-jwt": "^5.0.1",
+    "angular2-flash-messages": "^3.0.1",
+    "ngx-toastr": "^13.1.0",
+    "path": "^0.12.7",
+    "rxjs": "~6.6.0",
+    "tslib": "^2.0.0",
+    "zone.js": "~0.10.2",
+    "ejs": "latest",
+    "aws-sdk": "latest"
+  },
+  "engines": {
+    "node": "14.4.0"
+  }
+}

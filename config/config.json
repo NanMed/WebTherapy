@@ -1,0 +1,10 @@
+{
+    "development": {
+        "PORT": 3000,
+        "MONGODB URI": "mongodb+srv://dbAdmin:admin@cluster0.g7dwt.mongodb.net/<dbname>?retryWrites=true&w=majority"
+    },
+    "production": {
+        "PORT": 80,
+        "MONGODB_URI": "mongodb+srv://dbAdmin:juan@cluster0.riebv.mongodb.net/proyetcoLab?retryWrites=true&w=majority"
+    }
+}
